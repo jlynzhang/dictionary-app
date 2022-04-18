@@ -4,7 +4,7 @@ import DictionaryMain from "./DictionaryMain";
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="container mt-5">
         <main>
           <DictionaryMain />
         </main>
