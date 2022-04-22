@@ -5,6 +5,11 @@ export default function App() {
   return (
     <div className="App">
       <div className="container mt-5">
+        <img
+          src="images/dictionary-icon.png"
+          alt="Dictionary Icon"
+          width={100}
+        />
         <main>
           <DictionaryMain />
         </main>
