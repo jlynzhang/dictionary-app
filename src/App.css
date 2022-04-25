@@ -53,16 +53,12 @@
   text-shadow: 2px 1px 7px rgba(135, 135, 135, 0.3);
 }
 
-@keyframes gradient-animation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+.App section {
+  background-color: rgb(255, 255, 255, 0.7);
+  border-radius: 35px;
+  padding: 30px;
+  margin-bottom: 25px;
+  box-shadow: 8px 18px 30px 0px rgba(135, 135, 135, 0.2);
 }
 
 .App footer {
