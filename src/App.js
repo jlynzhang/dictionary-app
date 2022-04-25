@@ -18,7 +18,7 @@ export default function App() {
           </h2>
         </div>
         <main>
-          <DictionaryMain />
+          <DictionaryMain defaultKeyword="welcome" />
         </main>
       </div>
       <small>
