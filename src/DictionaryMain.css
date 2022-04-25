@@ -1,0 +1,90 @@
+.DictionaryMain .search-bar {
+  text-align: center;
+}
+.DictionaryMain input {
+  width: 340px;
+  height: 30px;
+  background-color: rgb(255, 255, 255, 0.6);
+  border: none;
+  border-radius: 7px;
+  padding-left: 7px;
+  box-shadow: 7px 7px 15px 0px rgba(135, 135, 135, 0.3);
+}
+
+.DictionaryMain ::placeholder {
+  text-align: center;
+  background: linear-gradient(
+    268deg,
+    #ff0000,
+    #ff9a00,
+    #d0de21,
+    #4fdc4a,
+    #3fdad8,
+    #2fc9e2,
+    #1c7fee,
+    #5f15f2,
+    #ba0cf8,
+    #fb07da,
+    #ff0000
+  );
+  background-size: 600% 600%;
+  animation: gradient-animation 60s ease infinite;
+  background-clip: text;
+  color: transparent;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.DictionaryMain input:focus {
+  background: linear-gradient(
+    268deg,
+    #ff0000,
+    #ff9a00,
+    #d0de21,
+    #4fdc4a,
+    #3fdad8,
+    #2fc9e2,
+    #1c7fee,
+    #5f15f2,
+    #ba0cf8,
+    #fb07da,
+    #ff0000
+  );
+  background-size: 600% 600%;
+  animation: gradient-animation 60s ease infinite;
+  background-clip: text;
+  border: 1px solid rgb(255, 255, 255);
+  color: #fff;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.DictionaryMain .suggested-words {
+  margin: 5px 0 60px;
+  text-align: center;
+  font-size: 12px;
+  color: rgb(255, 255, 255, 0.6);
+  text-shadow: 2px 1px 7px rgba(135, 135, 135, 0.3);
+}
+
+.DictionaryMain .container {
+  max-width: 750px;
+}

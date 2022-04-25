@@ -1,0 +1,37 @@
+.Meaning h3 {
+  font-size: 30px;
+  background: linear-gradient(
+    268deg,
+    #ff0000,
+    #ff9a00,
+    #d0de21,
+    #4fdc4a,
+    #3fdad8,
+    #2fc9e2,
+    #1c7fee,
+    #5f15f2,
+    #ba0cf8,
+    #fb07da,
+    #ff0000
+  );
+  background-size: 600% 600%;
+  animation: gradient-animation 60s ease infinite;
+  background-clip: text;
+  color: transparent;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.Meaning .example {
+  font-size: 18px;
+  opacity: 0.6;
+}

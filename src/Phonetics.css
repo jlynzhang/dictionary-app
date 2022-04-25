@@ -1,0 +1,8 @@
+.Phonetics {
+  margin-top: 22px;
+}
+
+.Phonetics .phonetic-text {
+  opacity: 0.3;
+  font-size: 25px;
+}

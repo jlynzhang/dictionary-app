@@ -25,9 +25,21 @@ export default function DictionaryMain() {
   return (
     <div className="DictionaryMain">
       <form onSubmit={search}>
-        <input type="search" autoFocus={true} onChange={handleKeywordChange} />
+        <div className="search-bar">
+          {" "}
+          <input
+            type="search"
+            placeholder="Search for a word, any word"
+            onChange={handleKeywordChange}
+          />
+        </div>
       </form>
-      <Results results={results} />
+      <div className="suggested-words">
+        No ideas? Try: horizon, forest, persevere, ethereal, summit...
+      </div>
+      <div className="container">
+        <Results results={results} />
+      </div>
     </div>
   );
 }
