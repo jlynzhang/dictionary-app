@@ -88,3 +88,12 @@
 .App a:hover {
   background-size: 0 2px, 100% 2px;
 }
+
+@media (max-width: 670px) {
+  .App h1 {
+    font-size: 45px;
+  }
+  .App h2 em {
+    font-size: 25px;
+  }
+}

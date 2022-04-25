@@ -35,3 +35,13 @@
     background-position: 0% 50%;
   }
 }
+
+@media (max-width: 670px) {
+  .Results .word {
+    font-size: 40px;
+    display: inline-block;
+  }
+  .Results .row {
+    display: table;
+  }
+}
